@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+body{
+    background-attachment: fixed;
+    margin: 0px;
+    background-color: rgba(62, 120, 108, 0.499);
+    text-align: center;
+}
+
+.Título{
+    background-image: linear-gradient(to bottom, #38CA79, #2DA060, #217345, #1A5B37);
+    font-family:  'Bebas Neue', cursivo;
+    font-size: 22vpx;
+    font-weight: normal;
+    color: white;
+    padding: 6px;
+    margin: 10px;
+    text-align: left;
+    margin: 0px;
+}
+
+nav > .Cabeçalho{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > .Menu li{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > h1,p{
+    text-align: center;
+}
+
+ nav > ul li{
+    direction: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav > ul li:hover{
+    background-color: #38CA79;
+    color: #1A5B37;
+    padding-left: 5px;
+    padding-right: 5px; 
+    border-radius: 10px;
+}
+
+nav > ul li:active{
+    color: blue;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main .android{
+    display: block;
+    margin: auto;
+}
+
+.Assunto > h1{
+    font-family: 'Android';
+    color: #278451;
+    text-align: left;
+}
+
+.Conteúdo > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.Conteúdo > p span{
+    color: #1a8e4e;
+    font-weight: bolder;
+}
+
+.Dan{
+    color: #1a8e4e;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.Dan:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.Ink{
+    color: #1a8e4e;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.Ink:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.Irina{
+    color: #1a8e4e;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.Irina:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.Conteúdo h2{
+    font-family: 'Android';
+    text-align: left;
+    color: #278451;
+    background-image: linear-gradient(to right, #42d68538,  #42d68500);
+    
+}
+
+.Conteúdo > .android{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article .Vídeo{
+    border: 20px solid #1A5B37;
+    height: 415px;
+    width: 750px;
+    border-right-width: 20px;
+    border-right-width: 20px;
+   
+    
+}
+
+.Lista{
+    background-color: #63da9965;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.Lista > aside p{
+    background-color: #199c54;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    padding-left: 8px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+.Lista > p{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.Lista > ul, .Segunda{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block; 
+}
+
+.Lista > ul{
+    text-align: left;
+}
+
+.Lista > p a{
+    text-decoration: none;
+    color: #1a8e4e;
+    font-weight: bolder;
+}
+
+.Lista > p a:hover{
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+.Lista > p a:visited{
+    color: darkgreen;
+}
+
+.Fim p span{
+    color: #1a8e4e;
+    font-weight: bolder;
+}
+
+.Fim p{
+    font-family: Arial,  Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.Autor p{
+    background-color: #1A5B37;
+    font-family: Arial,  Helvetica, sans-serif;
+    color: white;
+    padding: 5px;
+}
+
+.Autor p span{
+    font-weight: bolder;
+}
